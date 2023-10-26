@@ -15,6 +15,10 @@ $guyabano: #f8f8f8;
 
 }
 @media(min-width: 768px){
+    .h2{
+        height: 56px;
+        padding: 16px 24px 16px 24px;
+    }
     .buttons-connections{
         display: block;
 
@@ -146,11 +150,6 @@ $guyabano: #f8f8f8;
             row-gap: 16px;
             column-gap: 24px;
         }
-        &__h2{
-            height: 56px;
-            padding: 16px 24px 16px 24px;
-        }
-
         &__desc--hidden{
             overflow: hidden;
 
@@ -313,9 +312,6 @@ $guyabano: #f8f8f8;
         transition: 1s;
         }
     }
-    // .content{
-    //     min-width: 1120px;
-    // }
     .header{
         display: none;
     }

@@ -86,6 +86,16 @@ ul, li, a, button{
       left: -11px;
     }
 }
+.h2{
+  background-image: linear-gradient(to right,$guyabano 30%, #ffff 55%);
+  color: $gray3;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border-top: 1px solid #41F6D7;
+}
 .button-unwrap{
   font-size: 16px;
   font-weight: 500;
