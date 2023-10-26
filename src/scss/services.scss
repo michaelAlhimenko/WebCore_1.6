@@ -1,0 +1,29 @@
+$pink: #FF3E79;
+$gray: #FFFFFF;
+$gray2: #eaeaea;
+$gray3:#7E7E82;
+$gray4:#B5B6BC;
+$guyabano: #f8f8f8;
+
+.services{
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px 0 16px;
+      &__image{
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        max-width: inherit !important;
+      }
+      &__text{
+        height: 90px;
+        overflow: hidden;
+        line-height: 18px;
+        margin: 0;
+      }
+      .services__button {
+        display: flex;
+      }
+  }

@@ -1,0 +1,47 @@
+$pink: #FF3E79;
+$gray: #FFFFFF;
+$gray2: #eaeaea;
+$gray3:#7E7E82;
+$gray4:#B5B6BC;
+$guyabano: #f8f8f8;
+
+.repair-type{
+    margin-top: 24px;
+      
+      &__desc{
+        display:none;
+      }
+      &__mobile{
+        padding-left: 16px!important;
+        padding-top: 16px !important;
+        padding-right: 16px !important;
+      }
+      &__wrap{
+        display: flex !important;
+        justify-content: center;
+        // width: 240px !important;
+      }
+      &__item{
+        width: 240px;
+        height: 160px;
+        padding: 16px;
+        background-color: $gray;
+        box-sizing: border-box;
+        border-radius: 6px;
+        border: 1px solid $gray2;
+        box-sizing: border-box;
+        position: relative;  }
+      &__text{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &__button{
+        background-color: $gray;
+        border:2px solid $pink;
+        background: url(../img/icons/arrow.svg) no-repeat 55% 50%;
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+      }
+  }

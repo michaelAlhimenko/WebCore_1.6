@@ -1,0 +1,32 @@
+$pink: #FF3E79;
+$gray: #FFFFFF;
+$gray2: #eaeaea;
+$gray3:#7E7E82;
+$gray4:#B5B6BC;
+$guyabano: #f8f8f8;
+
+.navigation{
+    &__list{
+      display: flex;
+      list-style-type: none;
+      overflow: scroll;
+      white-space: nowrap;
+      padding-bottom: 8px;
+    }
+    &__item{
+      font-weight: 500;
+      padding: 8px 9px 8px 16px;
+      width: auto;
+    }
+    
+    &__item--active{
+      border: 2px solid #b8ffec;
+      border-radius: 10px;
+      box-shadow: 0px 4px 5px 0px rgba(126, 126, 130, 0.80);
+      background-color: $gray;
+    }
+    &__item > a{
+      text-decoration: none;
+      color: $gray3;
+    }
+}
