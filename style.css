@@ -55,6 +55,8 @@ ul, li, a, button {
     -ms-filter: blur(2px);
     filter: blur(2px);
     pointer-events: none; }
+  .content--fixed {
+    position: fixed !important; }
 
 .h1 {
   font-weight: 700;
@@ -147,6 +149,8 @@ ul, li, a, button {
   flex-direction: column;
   padding-top: 19px;
   padding-bottom: 32px; }
+  .menu-mobile > h3 {
+    display: none; }
   .menu-mobile__header {
     display: flex;
     align-items: center;
@@ -507,6 +511,10 @@ ul, li, a, button {
   .prices__wrap {
     display: flex !important;
     justify-content: center; }
+  .prices__h2 {
+    padding: 16px;
+    width: 100%;
+    margin: 0; }
   .prices__item {
     width: 260px;
     height: 200px;
@@ -573,6 +581,10 @@ ul, li, a, button {
   .repair-type__wrap {
     display: flex !important;
     justify-content: center; }
+  .repair-type__h2 {
+    padding: 16px;
+    width: 100%;
+    margin: 0; }
   .repair-type__item {
     width: 240px;
     height: 160px;
@@ -607,6 +619,8 @@ ul, li, a, button {
     padding: 16px 24px 16px 24px; }
   .buttons-connections {
     display: block; }
+    .buttons-connections > button {
+      margin-left: 10px; }
     .buttons-connections__chat {
       margin: 0 20px 0 20px; }
   .header__divider-logo {
@@ -697,7 +711,11 @@ ul, li, a, button {
       flex-wrap: wrap;
       row-gap: 16px;
       -moz-column-gap: 24px;
-           column-gap: 24px; }
+           column-gap: 24px;
+      justify-content: space-evenly; }
+    .fix__hidden {
+      visibility: hidden;
+      height: 0; }
     .fix__desc--hidden {
       overflow: hidden;
       transition: height 0.5s; }
@@ -724,7 +742,11 @@ ul, li, a, button {
       flex-wrap: wrap;
       row-gap: 16px;
       -moz-column-gap: 24px;
-      column-gap: 24px; }
+      column-gap: 24px;
+      justify-content: space-evenly; }
+    .repair-type__hidden {
+      visibility: hidden;
+      height: 0; }
     .repair-type__item {
       width: 224px;
       height: 160px;
@@ -786,6 +808,9 @@ ul, li, a, button {
     grid-template-columns: 320px 1fr; }
   .main {
     margin-bottom: 80px; }
+  .h2 {
+    height: 56px;
+    padding: 16px 32px 16px 32px; }
   .menu {
     position: static;
     box-sizing: border-box;
@@ -797,8 +822,11 @@ ul, li, a, button {
       padding: 0 22px 0 22px; }
     .menu-mobile__logo {
       margin: 0; }
-    .menu-mobile__list {
-      margin-bottom: 240px; }
+    .menu-mobile__connection {
+      padding-top: 100px; }
+    .menu--fixed {
+      position: fixed;
+      left: 0; }
   .feedback {
     width: 440px;
     left: -440px;
