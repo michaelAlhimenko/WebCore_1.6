@@ -29,13 +29,28 @@ export default function modal(){
                         spaceBetween: 17,
                     },
                     450: {
-                        slidesPerView: 1.75,
-                        slidesPerGroup: 1,
+                        slidesPerView: 2,
+                        slidesPerGroup: 2,
                         spaceBetween: 17,
                     },
                     550: {
-                        slidesPerView: 2,
+                        slidesPerView: 2.30,
                         slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    600: {
+                        slidesPerView: 2.4,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    650: {
+                        slidesPerView: 2.75,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    700: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 3,
                         spaceBetween: 17,
                     },
                 }
@@ -67,12 +82,27 @@ export default function modal(){
                         spaceBetween: 17,
                     },
                     450: {
-                        slidesPerView: 1.75,
+                        slidesPerView: 2,
                         spaceBetween: 17,
                     },
                     550: {
-                        slidesPerView: 2,
+                        slidesPerView: 2.30,
                         slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    600: {
+                        slidesPerView: 2.4,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    650: {
+                        slidesPerView: 2.75,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    700: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 3,
                         spaceBetween: 17,
                     },
                 }
@@ -95,16 +125,29 @@ export default function modal(){
                 },
                 
                 breakpoints:{
+                    300: {
+                        slidesPerView: 1.05,
+                        slidesPerGroup: 1,
+                        spaceBetween: 17,
+                    },
                     350: {
-                        slidesPerView: 1.35,
+                        slidesPerView: 1.20,
+                        slidesPerGroup: 1,
                         spaceBetween: 17,
                     },
                     400: {
-                        slidesPerView: 1.55,
+                        slidesPerView: 1.40,
+                        slidesPerGroup: 1,
                         spaceBetween: 17,
                     },
                     450: {
+                        slidesPerView: 1.60,
+                        slidesPerGroup: 1,
+                        spaceBetween: 17,
+                    },
+                    550: {
                         slidesPerView: 1.75,
+                        slidesPerGroup: 1,
                         spaceBetween: 17,
                     },
                     550: {
@@ -112,6 +155,17 @@ export default function modal(){
                         slidesPerGroup: 2,
                         spaceBetween: 17,
                     },
+                    650: {
+                        slidesPerView: 2.30,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+                    700: {
+                        slidesPerView: 2.5,
+                        slidesPerGroup: 2,
+                        spaceBetween: 17,
+                    },
+        
                 }
                 });
         }

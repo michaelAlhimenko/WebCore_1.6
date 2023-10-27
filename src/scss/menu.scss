@@ -28,7 +28,9 @@ $guyabano: #f8f8f8;
     flex-direction: column;
     padding-top: 19px;
     padding-bottom: 32px;
-      
+    & > h3{
+      display: none;
+    }
       &__header{
         display: flex;
         align-items: center;

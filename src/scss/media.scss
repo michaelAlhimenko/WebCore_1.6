@@ -21,7 +21,9 @@ $guyabano: #f8f8f8;
     }
     .buttons-connections{
         display: block;
-
+            & > button{
+                margin-left: 10px;
+            }
             &__chat{
                 margin: 0 20px 0 20px;
             }
@@ -149,6 +151,11 @@ $guyabano: #f8f8f8;
             flex-wrap: wrap;
             row-gap: 16px;
             column-gap: 24px;
+            justify-content: space-evenly;
+        }
+        &__hidden {
+            visibility: hidden;
+            height: 0;
         }
         &__desc--hidden{
             overflow: hidden;
@@ -187,6 +194,11 @@ $guyabano: #f8f8f8;
             row-gap: 16px;
             -moz-column-gap: 24px;
             column-gap: 24px;
+            justify-content: space-evenly;
+        }
+        &__hidden {
+            visibility: hidden;
+            height: 0;
         }
         &__item{
           width: 224px;
@@ -272,6 +284,10 @@ $guyabano: #f8f8f8;
     .main {
         margin-bottom: 80px;
     }
+    .h2 {
+        height: 56px;
+        padding: 16px 32px 16px 32px;
+    }
     .menu{
         position: static;
         box-sizing: border-box;
@@ -286,8 +302,12 @@ $guyabano: #f8f8f8;
         &-mobile__logo{
             margin: 0;
         }
-        &-mobile__list {
-            margin-bottom: 240px;
+        &-mobile__connection {
+            padding-top: 100px;
+        }
+        &--fixed{
+            position: fixed;
+            left: 0;
         }
     }
     .feedback{
