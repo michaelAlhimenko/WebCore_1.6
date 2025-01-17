@@ -1,4 +1,4 @@
-# Webpack Static Site Starter Kit
+https://michaelalhimenko.github.io/WebCore_1.6/
 
 ## Требования к проекту
 
